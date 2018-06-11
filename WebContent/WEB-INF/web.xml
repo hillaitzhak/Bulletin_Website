@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		 xmlns:web="http://java.sun.com/xml/ns/javaee" 
+		 xmlns="http://java.sun.com/xml/ns/javaee" 
+		 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" 
+		 id="WebApp_ID" version="3.0">
+  <display-name>SecureNetwork</display-name>
+  
+    <session-config>
+    <cookie-config>
+      <http-only>true</http-only>
+    </cookie-config>
+  </session-config>
+  
+ <servlet>
+    <description></description>
+    <display-name>HomeController</display-name>
+    <servlet-name>HomeController</servlet-name>
+    <servlet-class>controllers.HomeController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeController</servlet-name>
+    <url-pattern>/Home</url-pattern>
+  </servlet-mapping>
+    
+  <servlet>
+    <description></description>
+    <display-name>LoginController</display-name>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>controllers.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/LoginController</url-pattern>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>LogoutController</display-name>
+    <servlet-name>LogoutController</servlet-name>
+    <servlet-class>controllers.LogoutController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutController</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>RegisterController</display-name>
+    <servlet-name>RegisterController</servlet-name>
+    <servlet-class>controllers.RegisterController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterController</servlet-name>
+    <url-pattern>/RegisterController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>AnalyticsController</display-name>
+    <servlet-name>AnalyticsController</servlet-name>
+    <servlet-class>controllers.AnalyticsController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AnalyticsController</servlet-name>
+    <url-pattern>/Analytics</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <description></description>
+    <display-name>CustomListController</display-name>
+    <servlet-name>CustomListController</servlet-name>
+    <servlet-class>controllers.CustomListController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomListController</servlet-name>
+    <url-pattern>/CustomList</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>AdminController</display-name>
+    <servlet-name>AdminController</servlet-name>
+    <servlet-class>controllers.AdminController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminController</servlet-name>
+    <url-pattern>/Admin</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+    <description></description>
+    <display-name>BulletinController</display-name>
+    <servlet-name>BulletinController</servlet-name>
+    <servlet-class>controllers.BulletinController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BulletinController</servlet-name>
+    <url-pattern>/BulletinList</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+    <description></description>
+    <display-name>PasswordUpdateController</display-name>
+    <servlet-name>PasswordUpdateController</servlet-name>
+    <servlet-class>controllers.PasswordUpdateController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PasswordUpdateController</servlet-name>
+    <url-pattern>/PassUpdate</url-pattern>
+  </servlet-mapping>  
+
+ <servlet>
+    <description></description>
+    <display-name>SafePageController</display-name>
+    <servlet-name>SafePageController</servlet-name>
+    <servlet-class>controllers.SafePageController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SafePageController</servlet-name>
+    <url-pattern>/safePage</url-pattern>
+  </servlet-mapping>  
+  
+</web-app>
+

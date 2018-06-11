@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+.headernav{
+	background-image: url('Images/hacking-self-defence-750x400.jpg‬');
+}
+.homenav{
+	float: left;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: x-large;	
+}
+.navitem{
+	float: right;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: x-large;
+}
+.navitem :hover {
+  background-color: #ddd !important;
+  color: black;
+}
+
+.navitem.active {
+    background-color: #4CAF50 !important;
+    color: white;
+}

@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+.postsT{
+   width: 70%;
+   margin: auto;	
+   border-collapse : collapse;
+   border: 1px solid #999;
+}
+.postTitle{
+	width: 100%;
+	font-size:x-large;
+	font:bold;
+		
+}
+.rowP{
+	width: 100%;
+	
+}
+.pTime{
+	width: 100%;
+	float:left;
+	font-size: x-small;
+}
+.commentP{
+	background-color:gray;
+}
+.submith{
+	float:right;
+}
+.placeholderC{
+	position:relative;
+}
+.submith:hover{
+	color:red;
+	cursor:pointer;
+}
+.newPostHead{
+	width:70%;
+	margin:auto;
+}
+.introForum{
+	width:70%;
+	margin:auto;
+}
+<!--Header css-->
+.headernav{
+	background-image: url('../Images/hacking-self-defence-750x400.jpg‬');
+	}
+.homenav{
+	float: left;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: x-large;	
+}
+.navitem{
+	float: right;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: x-large;
+}
+.navitem :hover {
+  background-color: #ddd !important;
+  color: black;
+}
+
+.navitem.active {
+    background-color: #4CAF50 !important;
+    color: white;
+}
