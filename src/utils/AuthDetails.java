@@ -8,7 +8,6 @@ public class AuthDetails {
     private boolean isBlocked;
 
     public AuthDetails() {
-        // todo: make sure the first failed login's timestamp is recorded on the first failed login and not the second.
         this.attempts = 1;
         this.timestamp = Calendar.getInstance();
         this.isBlocked = false;
